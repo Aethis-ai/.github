@@ -14,18 +14,12 @@ npx aethis-mcp
 
 Works with Claude Code, Claude Desktop, Cursor, Windsurf, and any MCP-compatible client.
 
-**CLI** — author, test, and publish rule bundles from the terminal:
-
-```
-pip install aethis-cli
-```
-
 ## Repositories
 
 | Repo | Description |
 |------|-------------|
 | [aethis-mcp](https://github.com/Aethis-ai/aethis-mcp) | MCP server — 19 tools for decision evaluation, conversational checks, and TDD-based rule authoring |
-| [aethis-cli](https://github.com/Aethis-ai/aethis-cli) | Python CLI for the Aethis developer API |
+| [aethis-examples](https://github.com/Aethis-ai/aethis-examples) | Example rule bundles and usage patterns |
 
 ## Links
 
