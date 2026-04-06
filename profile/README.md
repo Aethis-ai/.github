@@ -20,7 +20,7 @@ Works with Claude Code, Claude Desktop, Cursor, Windsurf, and any MCP-compatible
 pip install aethis-cli
 ```
 
-## Repositories
+## Repositories (coming soon)
 
 | Repo | Description |
 |------|-------------|
