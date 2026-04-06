@@ -31,4 +31,4 @@ pip install aethis-cli
 ## Links
 
 - [aethis.ai](https://aethis.ai) — Technology overview
-- [aethis.law](https://aethis.legal) — First application: UK immigration law
+- [aethis.legal](https://aethis.legal) — First application: UK immigration law
