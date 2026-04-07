@@ -1,12 +1,19 @@
 # Aethis
-
+```
+▞▀▖   ▐  ▌  ▗    
+▙▄▌▞▀▖▜▀ ▛▀▖▄ ▞▀▘
+▌ ▌▛▀ ▐ ▖▌ ▌▐ ▝▀▖
+▘ ▘▝▀▘ ▀ ▘ ▘▀▘▀▀ 
+```
 Deterministic decision systems for AI agents.
 
 Aethis compiles legislation, regulation, and policy into formally verified logic. An LLM interprets the source text once at authoring time. After that, every decision is pure constraint solving — same inputs, same answer, every time, with full traceability back to the source clause.
 
 ## Get started
 
-**MCP server** — give any AI agent deterministic eligibility checks (no sign-up needed):
+No sign-up needed. Decision tools work immediately.
+
+**MCP server** — give any AI agent deterministic eligibility checks:
 
 ```
 npx aethis-mcp
@@ -14,13 +21,15 @@ npx aethis-mcp
 
 Works with Claude Code, Claude Desktop, Cursor, Windsurf, and any MCP-compatible client.
 
-**CLI** — author, test, and publish rule bundles from the terminal:
+**CLI** — evaluate eligibility, author and publish rule bundles from the terminal:
 
 ```
 pip install aethis-cli
 ```
 
-## Repositories (coming soon)
+> Want to author your own rules? Authoring access is rolling out now — [register interest](https://aethis.ai/dashboard).
+
+## Repositories
 
 | Repo | Description |
 |------|-------------|
