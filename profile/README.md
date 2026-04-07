@@ -1,10 +1,5 @@
 # Aethis
-```
-▞▀▖   ▐  ▌  ▗    
-▙▄▌▞▀▖▜▀ ▛▀▖▄ ▞▀▘
-▌ ▌▛▀ ▐ ▖▌ ▌▐ ▝▀▖
-▘ ▘▝▀▘ ▀ ▘ ▘▀▘▀▀ 
-```
+
 Deterministic decision systems for AI agents.
 
 Aethis compiles legislation, regulation, and policy into formally verified logic. An LLM interprets the source text once at authoring time. After that, every decision is pure constraint solving — same inputs, same answer, every time, with full traceability back to the source clause.
