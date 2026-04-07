@@ -8,12 +8,12 @@ We tested frontier LLMs on 11 insurance coverage scenarios with a five-level exc
 
 | | Accuracy | Speed | Deterministic | Explainable | Regulated use |
 |--|----------|-------|:---:|:---:|:---:|
-| **Aethis Engine** | **100%** | **<5ms** | **Yes** | **Yes** | **Yes** |
-| GPT-5.4 | 100% | 2-5s | No | No | No |
-| Claude Opus 4.6 | 100% | 2-5s | No | No | No |
-| Claude Sonnet 4.6 | 91% | 1-3s | No | No | No |
-| GPT-5.4-mini | 82% | 1-2s | No | No | No |
-| GPT-5.3 (ChatGPT) | 27% | 2-5s | No | No | No |
+| **Aethis Engine** | **100%** | **<5ms** | ✅ | ✅ | ✅ |
+| GPT-5.4 | 100% | 2-5s | ❌ | ❌ | ❌ |
+| Claude Opus 4.6 | 100% | 2-5s | ❌ | ❌ | ❌ |
+| Claude Sonnet 4.6 | 91% | 1-3s | ❌ | ❌ | ❌ |
+| GPT-5.4-mini | 82% | 1-2s | ❌ | ❌ | ❌ |
+| GPT-5.3 (ChatGPT) | 27% | 2-5s | ❌ | ❌ | ❌ |
 
 Flagship LLMs match the engine on accuracy — but accuracy is table stakes. In regulated workflows, decisions must be deterministic, explainable, and non-stochastic. LLMs fail all three regardless of accuracy. The model most people use daily (GPT-5.3) gets 73% wrong.
 
