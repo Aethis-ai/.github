@@ -13,6 +13,8 @@ Compile legislation, policy, and contracts into formal logic. Get the same corre
 
 ---
 
+> **Authoring is in private beta.** Decision tools (`decide`, `fields`, `explain`, `aethis_decide`, `aethis_schema`) are public — no key required. Authoring tools (rule generation, test refinement, publishing) require an invite. Request access at [aethis.ai/developer-access](https://aethis.ai/developer-access).
+
 ## Install
 
 | Package | Install | Version |
@@ -20,8 +22,6 @@ Compile legislation, policy, and contracts into formal logic. Get the same corre
 | **`aethis-mcp`** &nbsp; drop-in MCP server for Claude Code, Cursor, Windsurf | `npx -y aethis-mcp` | [![npm](https://img.shields.io/npm/v/aethis-mcp.svg?label=&logo=npm&logoColor=white&color=CB3837)](https://www.npmjs.com/package/aethis-mcp) |
 | **`aethis-sdk`** &nbsp; Python SDK | `pip install aethis-sdk` | [![pypi](https://img.shields.io/pypi/v/aethis-sdk.svg?label=&logo=python&logoColor=white&color=3776AB)](https://pypi.org/project/aethis-sdk/) |
 | **`aethis-cli`** &nbsp; author and publish rulesets | `uv tool install aethis-cli` | [![pypi](https://img.shields.io/pypi/v/aethis-cli.svg?label=&logo=python&logoColor=white&color=3776AB)](https://pypi.org/project/aethis-cli/) |
-
-> **Evaluation is free during the developer beta — no key, no sign-up, on every path.** `decide`, `schema`, `explain`, and `next_question` all work key-less from the MCP server, the CLI, the Python SDK, and the public REST API. Authoring (compiling and publishing your own rulesets) is invite-only. [Request authoring access →](https://aethis.ai/developer-access)
 
 ---
 
