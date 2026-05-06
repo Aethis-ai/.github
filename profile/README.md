@@ -169,16 +169,12 @@ The engine asks the **smallest** set of questions needed to reach a decision (co
 
 ## Research
 
-Aethis is built on the empirical claim that frontier LLMs cannot reliably execute nested rule structures, and that a compiled-logic architecture is *structurally* better suited to regulated decisioning. The full case is in the paper:
-
 > [**Confidently Wrong: Exception Chain Collapse in Frontier LLM Rule Evaluation**](https://github.com/Aethis-ai/confidently-wrong-benchmark/blob/main/paper/Simpson_Exception_Chain_Collapse_2026.md) — Simpson, Kozak, Doake (v3.8, April 2026).
 
-Three independent evidence sources:
-
 <!-- aethis-bible: claims.md#internal-benchmark-aethis-vs-frontier-llms-225-scenarios -->
-1. **Adversarial extension (paper §6.4.1).** 20 newly-authored construction-CAR scenarios. Aethis Engine 20/20 by construction; Claude Opus 4.7 18/20, GPT-5.4 (default) 19/20 with **0 reasoning tokens on every scenario**, Sonnet 4.6 19/20.
-2. **External validation on LegalBench (§6.10).** Across 9 peer-reviewed tasks and 949 cases authored by Stanford researchers, the engine is significantly more accurate than each of three frontier LLMs by combined paired-binomial McNemar's test (*p* < 0.001 vs Sonnet 4.6 and GPT-5.4; *p* = 0.003 vs Opus 4.7).
-3. **The shifting-ground demonstration (§6.5).** Between March and April 2026, several v3.7 paper cells closed silently under the same model alias — a property structurally incompatible with verification frameworks like the EU AI Act. Compiled logic is invariant by construction.
+Engine accuracy: 100% across 225 scenarios spanning four rule domains, where frontier LLMs score 63–100% (Simpson 2026 §3). External validation on Stanford's LegalBench: significantly more accurate than Claude Opus 4.7 and GPT-5.4 across 9 tasks and 949 held-out cases (Simpson 2026 §6.10).
+
+Reproducible benchmark + LegalBench harness: [Aethis-ai/confidently-wrong-benchmark](https://github.com/Aethis-ai/confidently-wrong-benchmark).
 
 ## Links
 
