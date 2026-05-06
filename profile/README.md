@@ -25,20 +25,6 @@ Compile legislation, policy, and contracts into formal logic. Get the same corre
 
 ---
 
-## Why Aethis
-
-<!-- aethis-bible: public-messaging.md#3-the-problem-one-paragraph -->
-AI agents are starting to make eligibility, compliance, and entitlement decisions. LLMs interpret rules well — they do not execute them reliably. The failure mode is silent: high confidence, wrong answer, no trace.
-
-In a regulated workflow, a decision must be:
-
-- **Deterministic** — same inputs, same answer, every time.
-- **Explainable** — every conclusion traces back to a source clause.
-- **Reproducible** — the answer you got last month is the answer you get today.
-
-<!-- aethis-bible: public-messaging.md#4-the-solution-one-paragraph -->
-Aethis is the layer between your agent and the rulebook. An LLM compiles the source rules into formal logic *once*, at authoring time. After that, every decision is pure constraint evaluation — <1ms median decision, no model in the loop.
-
 ## Quick start
 
 ### MCP — drop into Claude Code, Cursor, Windsurf
