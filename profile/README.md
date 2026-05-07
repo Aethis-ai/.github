@@ -164,6 +164,7 @@ Reproducible benchmark + LegalBench harness: [Aethis-ai/confidently-wrong-benchm
 
 ## Links
 
+- **[docs.aethis.ai/agents](https://docs.aethis.ai/agents)** — onboarding for AI coding agents (Claude Code, Cursor, Windsurf): install + verify + auth + workflow patterns in one page.
 - **[docs.aethis.ai](https://docs.aethis.ai)** — developer docs, API reference, authoring guide.
 - **[aethis.ai](https://aethis.ai)** — platform overview and developer-access requests.
 - **[aethis.legal](https://aethis.legal)** — first vertical application: UK immigration law.
