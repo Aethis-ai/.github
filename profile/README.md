@@ -2,8 +2,8 @@
 
 # Aethis
 
-<!-- aethis-bible: public-messaging.md#2-headlines-ranked -->
-**Deterministic decisions for regulated AI.**
+<!-- aethis-bible: public-messaging.md#2-headlines-ranked (secondary) -->
+**Determinism for the stochastic age.**
 
 Compile legislation, policy, and contracts into formal logic. Get the same correct answer every time, with a full audit trail back to the source clause — no LLM in the decision path.
 
