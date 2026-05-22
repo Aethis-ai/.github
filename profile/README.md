@@ -20,7 +20,7 @@ Compile legislation, policy, and contracts into formal logic. Get the same corre
 | Package | Install | Version |
 |---|---|---|
 | **`aethis-mcp`** &nbsp; drop-in MCP server for Claude Code, Cursor, Windsurf | `npx -y aethis-mcp` | [![npm](https://img.shields.io/npm/v/aethis-mcp.svg?label=&logo=npm&logoColor=white&color=CB3837)](https://www.npmjs.com/package/aethis-mcp) |
-| **`aethis-sdk`** &nbsp; Python SDK | `pip install aethis-sdk` | [![pypi](https://img.shields.io/pypi/v/aethis-sdk.svg?label=&logo=python&logoColor=white&color=3776AB)](https://pypi.org/project/aethis-sdk/) |
+| **`aethis-sdk`** &nbsp; Python SDK | `uv add aethis-sdk` | [![pypi](https://img.shields.io/pypi/v/aethis-sdk.svg?label=&logo=python&logoColor=white&color=3776AB)](https://pypi.org/project/aethis-sdk/) |
 | **`aethis-cli`** &nbsp; author and publish rulesets | `uv tool install aethis-cli` | [![pypi](https://img.shields.io/pypi/v/aethis-cli.svg?label=&logo=python&logoColor=white&color=3776AB)](https://pypi.org/project/aethis-cli/) |
 
 ---
@@ -51,7 +51,7 @@ Once registered, your agent has a deterministic `aethis_decide` / `aethis_explai
 
    decision    : not_eligible
    ruleset     : aethis/construction-all-risks
-   engine      : aethis-core@0.10.0  (no LLM in decision path)
+   engine      : aethis-core@0.27.0  (no LLM in decision path)
    trace       :
      satisfied      policy_period            (Cl.3)
      satisfied      access_exclusion         (Cl.8)   access damage triggers exclusion
@@ -65,7 +65,7 @@ The engine asked four of eleven questions and short-circuited.
 ### Python SDK — embed in your service
 
 ```bash
-pip install aethis-sdk
+uv add aethis-sdk
 ```
 
 ```python
@@ -85,7 +85,7 @@ with Aethis() as client:
     print(result.slug)       # → "aethis/construction-all-risks"
 ```
 
-`ruleset_id` accepts a slug or a versioned ID. Pass `api_key=` to `Aethis(...)` once you have an authoring key.
+`ruleset_id` accepts a slug or a versioned ID. For composed multi-section decisions, use `client.decide_rulebook(rulebook_id=..., field_values=...)` (since SDK v0.5.0) — that path is always scope-gated, so pass `api_key=` to `Aethis(...)`. The same key unlocks authoring.
 
 ### CLI — author your own rulesets
 
