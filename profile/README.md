@@ -155,7 +155,7 @@ The engine asks the **smallest** set of questions needed to reach a decision (co
 
 ## Research
 
-> [**Confidently Wrong: Exception Chain Collapse in Frontier LLM Rule Evaluation**](https://github.com/Aethis-ai/confidently-wrong-benchmark/blob/main/paper/Simpson_Exception_Chain_Collapse_2026.md) — Simpson, Kozak, Doake (v3.11, July 2026).
+> [**Confidently Wrong: Exception Chain Collapse in Frontier LLM Rule Evaluation**](https://github.com/Aethis-ai/confidently-wrong-benchmark/blob/main/paper/Simpson_Exception_Chain_Collapse_2026.md) — Simpson, Kozak, Doake (v3.13, July 2026).
 
 <!-- aethis-bible: claims.md#internal-benchmark-aethis-vs-frontier-llms-225-scenarios -->
 Engine accuracy: 100% across 225 scenarios spanning four rule domains, where frontier LLMs score 63–100% (Simpson 2026 §6). External validation on Stanford's LegalBench: significantly more accurate than Claude Opus 4.7 and GPT-5.4 across 9 tasks and 949 held-out cases (Simpson 2026 §6.10).
